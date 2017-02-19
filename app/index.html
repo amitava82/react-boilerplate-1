@@ -1,7 +1,22 @@
 <html>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
   <title>DPOrganizer React Boilerplate</title>
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
   <body>
-    <script type="text/javascript" src="bundle.js"></script>
+
   </body>
+  <script>
+	  // Initialize Firebase
+	  var config = {
+		  apiKey: "AIzaSyAFQjiCq9qbkf7HiHT2u26LMM9sfrDFsiA",
+		  authDomain: "nitrogg-a4900.firebaseapp.com",
+		  databaseURL: "https://nitrogg-a4900.firebaseio.com",
+		  storageBucket: "nitrogg-a4900.appspot.com",
+		  messagingSenderId: "29486156924"
+	  };
+	  firebase.initializeApp(config);
+  </script>
+  <script type="text/javascript" src="bundle.js"></script>
 </html>
